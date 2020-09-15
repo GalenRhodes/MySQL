@@ -1,0 +1,11 @@
+module MySQLmac [system] {
+  header "/usr/local/mysql/include/mysql.h"
+  link "mysqlclient"
+  export *
+}
+
+module MySQLlinux [system] {
+  header "/usr/include/mysql/mysql.h"
+  link "mysqlclient"
+  export *
+}
