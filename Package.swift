@@ -6,5 +6,5 @@ import PackageDescription
 let package = Package(
     name: "MySQL",
     pkgConfig: "mysqlclient",
-    providers: [ .brew(["mysql"]), .apt(["libmysqlclient-dev"]), ],
+    providers: [ .brew(["mysql"]), .apt(["libmysqlclient-dev"]) ]
 )
